@@ -1,0 +1,17 @@
+package assignment6;
+
+import java.util.Scanner;
+
+public class ThreeDimensionalMultiplication {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter number to display Multiplication table");
+		int num = scan.nextInt();
+		for(int i=1; i<11; i++){
+			System.out.println(num+"*"+num+"*"+i+" ="+num*i);
+
+	}
+
+}
+}
